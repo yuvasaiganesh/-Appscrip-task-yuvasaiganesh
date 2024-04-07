@@ -1,0 +1,60 @@
+.navSection1{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+   
+    width:100vw
+   
+}
+.navSection2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+  
+
+   
+    
+   
+    
+}
+.navSection2 p{
+    
+    padding-left: 10px;
+    font-size:4vw
+   
+    
+} 
+
+@media screen and (min-width:768px){
+    .navSection2 p{
+    
+        padding-left: 10px;
+        font-size:2vw
+       
+        
+    }
+}
+
+
+
+
+
+
+
+
+.navItems{
+  
+   display: flex;
+   width:40vw;
+   justify-content: space-between;
+   align-items: center;  
+}
+
+
+
+    
+    
