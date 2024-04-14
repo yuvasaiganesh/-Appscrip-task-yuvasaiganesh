@@ -1,16 +1,15 @@
 import React from 'react';
 import ProductsGrid from './components/ProductsGrid';
 import Navbar from './components/Navabar';
-import Home from './components/Home';
+import "./App.css"
+
 
 
 
 
 const App = () => (
-  <><Navbar />
-  <Home/>
-  
-  <ProductsGrid /></>
+  <div className='container'><Navbar />
+  <ProductsGrid /></div>
 );
 
 export default App;

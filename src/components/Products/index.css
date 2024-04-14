@@ -1,18 +1,16 @@
 
-.product-grid{
+.productsSection{
     display: flex;
     flex-wrap:wrap;
-    
-    justify-content: center;
-    width:70vw;
-    border-radius: 10px;
+    width: 90vw;
+    align-self: center;
    
 }
 
 .product-card{
     display: flex;
     width:80vw;
-    max-width:300px;
+    max-width:250px;
     margin:10px;
     flex-direction: column;
     background-color: white;
@@ -21,20 +19,41 @@
    
     
 }
+.productTitle{
+    font-size: 4vw;
 
+}
 .product-card img{
-   width:20vw;
-   max-width: 200px;
-   height:20vh;
+   width:80vw;
+   max-width: 250px;
+   height:auto;
    
     
 }
-.product-card p{
-    font-size:4vw
+.price{
+    text-decoration:line-through;
+}
+.originalPrice{
+    color:green;
+    font-weight:bold
+}
+.offerSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3px;
+}
+.offerSection p{
+    font-size: 4vw;
 }
 
-@media screen and (min-width:768px){
-    .product-card p{
-        font-size:2vw
+@media screen and (min-width:400px){
+   
+    .productTitle{
+        font-size: 14px;
+        
+    }
+    .offerSection p{
+        font-size: 12px;
     }
 }
