@@ -36,9 +36,11 @@ return (
         </div>
 
     </div>
-   
+   {
+    products.length>0 ? <Products productsData={products}/> : <h1 className="Loading">Loading Products...</h1>
+   }
     
-    <Products productsData={products}/>
+    
 </div>
 
 
